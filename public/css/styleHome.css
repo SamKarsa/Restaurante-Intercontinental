@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Chau+Philomene+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+    font-family: "Chau Philomene One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-image: url(/public/img/Fondo1.jpg);
+    background-size: cover;
+}
+
+header {
+    width: 100vw;
+    height: 13vh;
+
+    display: flex;
+
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 0) 100%);
+}
+
+.container_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px 0 20px;
+
+    cursor: pointer;
+}
+
+.container_logo img {
+    width: 120px;
+}
+
+.container_logo h1 {
+    font-family: "Chau Philomene One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+
+    color: #d8d8d8;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+nav ul {
+    display: flex;
+    margin: 0 10px 0 0;
+}
+
+nav ul li {
+    margin: 0 60px 0 0;
+}
+
+nav ul li a {
+    position: relative;
+
+    font-size: 30px;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+    nav ul li:hover a {
+        font-size: 40px;
+        color: #d8d8d8;
+    }
+    
+    nav ul li a::after {
+        content: '';
+        position: absolute;
+        bottom: -5px; /* Ajuste para que la línea quede debajo del texto */
+        left: 0;
+        width: 0; /* Ancho inicial */
+        height: 2px;
+        background-color: #d8d8d8; /* Color de la línea */
+        transition: width 0.4s ease; /* Animación de la línea */
+    }
+    
+    nav ul li:hover a::after {
+        width: 100%; /* Expande la línea en hover */
+    }
