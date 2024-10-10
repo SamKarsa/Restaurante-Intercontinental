@@ -1,0 +1,17 @@
+{
+  "name": "restaurante-intercontinental",
+  "version": "1.0.0",
+  "description": "App web Node JS Restaurante Intercontinental.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js"
+  },
+  "author": "Samuel Lopez Marin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
