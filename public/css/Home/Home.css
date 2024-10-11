@@ -5,6 +5,7 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
+    box-sizing: border-box;
 
     font-family: "Chau Philomene One", sans-serif;
     font-weight: 400;
@@ -12,8 +13,8 @@
 }
 
 body {
-    background-image: url(/public/img/Fondo1.jpg);
-    background-size: cover;
+    background-color: #3a524a;
+    overflow-x: hidden;
 }
 
 header {
@@ -22,7 +23,7 @@ header {
 
     display: flex;
 
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 0) 100%);
+   /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 0) 100%);*/
 }
 
 .container_logo {
@@ -89,3 +90,22 @@ nav ul li a {
     nav ul li:hover a::after {
         width: 100%; /* Expande la línea en hover */
     }
+
+.Ubicacion {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(/img/Fondo1.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    opacity: 0; /* Empieza invisible */
+    transform: translateY(50px); /* Empieza desplazada hacia abajo */
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.Ubicacion.show {
+    opacity: 1; /* Aparece */
+    transform: translateY(0); /* Vuelve a su posición original */
+}
+

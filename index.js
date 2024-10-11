@@ -4,6 +4,11 @@ const path = require('path');
 
 //Crear APP Express
 const app = express();
+
+//MIDDLEWARE Static files
+app.use(express.static(path.join(__dirname,'/public')))
+
+//Routes
 app.use('/',routes());
 
 //Carpeta donde estaran las vistas
