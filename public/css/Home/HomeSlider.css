@@ -14,7 +14,7 @@ html {
   font-size: 1.6rem;
   font-family: "Montserrat", sans-serif;
   scroll-behavior: smooth;
-  text-align: center;
+  text-align: left;
 
   height: 87vh;
   overflow: hidden;
@@ -28,7 +28,8 @@ html {
 #tranding h1 {
   /*margin-left: 60px;*/
   font-size: 50px;
-  color: #d8d8d8;
+  color: #000000;
+  text-align: center;
 }
 
 @media (max-width:1440px) {
