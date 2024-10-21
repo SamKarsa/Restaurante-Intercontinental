@@ -24,18 +24,3 @@ var TrandingSlider = new Swiper('.tranding-slider', {
     }
 });
 
-document.addEventListener("DOMContentLoaded", function() {
-    const ubicacionSection = document.querySelector(".Ubicacion");
-
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          ubicacionSection.classList.add("show"); // Añade la clase 'show' cuando es visible
-        }
-      });
-    }, {
-      threshold: 0.1 // El 10% de la sección debe estar visible antes de que se active la animación
-    });
-
-    observer.observe(ubicacionSection); // Monitorea la sección "Ubicación"
-  });

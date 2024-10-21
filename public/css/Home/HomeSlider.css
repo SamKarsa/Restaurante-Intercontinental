@@ -10,7 +10,7 @@ html {
   font-size: 100%;
 }
 
-#tranding {
+#section_promotions {
   font-size: 1.6rem;
   font-family: "Montserrat", sans-serif;
   scroll-behavior: smooth;
@@ -18,6 +18,8 @@ html {
 
   height: 87vh;
   overflow: hidden;
+
+  transition: background 1s ease;
 }
 
 .container {
@@ -25,7 +27,7 @@ html {
   margin: 0 auto;
 }
 
-#tranding h1 {
+#section_promotions h1 {
   /*margin-left: 60px;*/
   font-size: 50px;
   color: #000000;
@@ -33,19 +35,19 @@ html {
 }
 
 @media (max-width:1440px) {
-  #tranding {
+  #section_promotions {
     padding: 0rem 0;
   }
 }
 
-#tranding .tranding-slider {
+#section_promotions .tranding-slider {
   height: 52rem;
   padding: 2rem 0;
   position: relative;
 }
 
 @media (max-width:500px) {
-  #tranding .tranding-slider {
+  #section_promotions .tranding-slider {
     height: 0rem;
   }
 }
