@@ -6,9 +6,9 @@
   --bg: #f5f5f5;
 }
 
-html {
+/*html {
   font-size: 100%;
-}
+}*/
 
 #section_promotions {
   font-size: 1.6rem;
@@ -28,7 +28,6 @@ html {
 }
 
 #section_promotions h1 {
-  /*margin-left: 60px;*/
   font-size: 50px;
   color: #000000;
   text-align: center;
