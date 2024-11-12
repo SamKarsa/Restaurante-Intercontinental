@@ -191,10 +191,15 @@ nav ul li a {
     color: #666;
     line-height: 1.5;
     margin-bottom: 20px;
+    
+    /* Propiedades para truncar texto */
     display: -webkit-box;
     -webkit-line-clamp: 2;
+    line-clamp: 2; /* Añadimos la propiedad estándar */
     -webkit-box-orient: vertical;
     overflow: hidden;
+    text-overflow: ellipsis; /* Asegura que se muestren los puntos suspensivos */
+    max-height: 2.8em; /* Respaldo para navegadores que no soportan line-clamp */
 }
 
 .view-dish-btn {
