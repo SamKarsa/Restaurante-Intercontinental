@@ -24,7 +24,6 @@ body {
 /*SECTION PLATOS MAS RECOMENDADOS COMIENZO*/
 .section_recommended_dishes {
     padding: 40px 0;
-    background-color: #fafafa;
 }
 
 .title-section2 {
@@ -34,7 +33,7 @@ body {
 
 .title-section2 h2 {
     font-size: 2.5rem;
-    color: #1a1a1a;
+    color: #FFF;
     font-weight: 400;
     letter-spacing: 3px;
     position: relative;
@@ -47,9 +46,9 @@ body {
     bottom: -15px;
     left: 50%;
     transform: translateX(-50%);
-    width: 60px;
+    width: 80px;
     height: 2px;
-    background-color: #e81821; 
+    background-color: #F01515; 
 }
 
 .container_cards {
@@ -64,7 +63,7 @@ body {
 
 .custom-card {
     background: #fff;
-    height: 350px;
+    height: 400px;
     position: relative;
     border-radius: 8px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
@@ -112,7 +111,7 @@ body {
     font-size: 0.9rem;
     color: #666;
     line-height: 1.5;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     
     /* Propiedades para truncar texto */
     display: -webkit-box;
@@ -195,6 +194,17 @@ body {
 /*SECTION DE PLATO MAS RECOMENDADOS FIN*/
 /*------------------------------------------------------------------------*/
 
+/*------------------------------------------------------------------------*/
+/*Fondo compartido entre los platos recomendados y el find us*/
+.background_shared{
+    width: 100%;
+    height: auto;
+    background-image:url(/img/Background/fondo-index.png);
+    background-size: cover;
+    background-position: center top ;
+}
+/*------------------------------------------------------------------------*/
+
 
 /*------------------------------------------------------------------------*/
 /*SECTION DE ENCUENTRANOS COMIENZO*/
@@ -208,6 +218,7 @@ body {
 .title-findus {
     font-size: 40px;
     text-align: center;
+    color: #FFF;
 }
 
 .container-content {
@@ -234,6 +245,10 @@ body {
     height: 450px; /* Altura fija para el iframe */
     border: none; /* Quitar el borde del iframe */
     border-radius: 10px; /* Bordes redondeados en el iframe */
+}
+
+.img_chef_index{
+    margin: -5px;
 }
 /*SECTION DE ENCUENTRANOS FIN*/
 /*------------------------------------------------------------------------*/
