@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Chau+Philomene+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+
+    font-family: "Chau Philomene One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    overflow-x: hidden;
+}
