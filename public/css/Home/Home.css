@@ -257,7 +257,7 @@ nav ul li a {
     border-radius: 10px; /* Bordes redondeados en el iframe */
 }
 
-footer{
+/*footer{
     display: flex;
     flex-direction: column;
 
@@ -321,4 +321,86 @@ footer{
 
 .networks i {
     padding-left: 10px;
+}*/
+
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background-color: #2C2C2C;  /* Gris oscuro elegante */
+    color: #F5F5F5;  /* Blanco hueso para el texto */
+    padding: 30px 300px 0 300px;
+}
+
+.container_footer {
+    display: flex;  
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container_information{
+    display: flex;
+    flex-direction: row;
+}
+
+.container_logo h3{
+    font-size: 40px;
+    color: #D4C5B9;  /* Color beige suave para el título */
+}
+
+.container_logo img {
+    filter: brightness(0) invert(0.9);  /* Convierte el logo a un tono claro */
+}
+
+.container_information .card_info{
+    padding: 25px;
+}
+
+.card_info h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #D4C5B9;  /* Color beige suave para subtítulos */
+}
+
+.card_info p{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #A9A9A9;  /* Gris claro para texto normal */
+    transition: color 0.3s ease;
+}
+
+.card_info p:hover{
+    color: #F5F5F5;  /* Cambia a blanco hueso al pasar el mouse */
+    cursor: pointer;
+}
+
+.container_networks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 0 20px 0;
+    align-items: center;
+    border-top: solid 0.5px rgba(255, 255, 255, 0.1);  /* Línea divisora más sutil */
+}
+
+.certificate {
+    font-size: 13px;
+    color: #808080;  /* Gris medio para el texto legal */
+}
+
+.networks {
+    font-size: 25px;
+    color: #D4C5B9;  /* Beige suave para los íconos */
+    margin-left: 40px;
+}
+
+.networks i {
+    padding-left: 10px;
+    transition: color 0.3s ease;
+}
+
+.networks i:hover {
+    color: #F5F5F5;  /* Cambia a blanco hueso al pasar el mouse */
+    cursor: pointer;
 }
