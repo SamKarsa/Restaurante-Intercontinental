@@ -95,13 +95,12 @@ nav ul li a {
 
 /* Css para la SECTION 2 */
 .section_recommended_dishes {
-    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
 }
 
 .title-section2{
     text-align: center;
     font-size: 30px;
-    margin-top: 20px;
 }
 
 .container_cards {
@@ -217,4 +216,109 @@ nav ul li a {
     .container_cards .custom-card .custom-content a {
         font-size: 0.9rem;
     }
+}
+
+/* Css para la SECTION 3 */
+.section_location {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 50px;
+}
+
+.title-findus {
+    font-size: 40px;
+    text-align: center;
+}
+
+.container-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.container-maps {
+    max-width: 900px; /* Limita el ancho máximo para pantallas grandes */
+    display: flex;
+    align-items: center;
+}
+
+.container-maps .card-map{
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    overflow: hidden; /* Para que el borde redondeado funcione bien */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 10px; /* Espacio interno alrededor del iframe */
+}
+
+.container-maps iframe {
+    width: 800px; /* Hacer que el iframe ocupe todo el ancho del contenedor */
+    height: 450px; /* Altura fija para el iframe */
+    border: none; /* Quitar el borde del iframe */
+    border-radius: 10px; /* Bordes redondeados en el iframe */
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: auto;
+    background-color: #b90f0f;
+    
+    color: rgb(212, 212, 212);
+    padding:  30px 300px 0 300px;
+}
+
+.container_footer {
+    display: flex;  
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container_information{
+    display: flex;
+    flex-direction: row;
+}
+
+.container_logo h3{
+    font-size: 40px;
+}
+
+
+.container_information .card_info{
+    padding: 25px;
+}
+
+.card_info h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.card_info p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.container_networks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 0 20px 0;
+    align-items: center;
+    border-top: solid 0.5px white;
+}
+
+.certificate {
+    font-size: 13px;
+}
+
+
+.networks {
+    font-size: 25px;
+    color: white;
+    margin-left: 40px;
+}
+
+.networks i {
+    padding-left: 10px;
 }
