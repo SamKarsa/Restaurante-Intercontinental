@@ -33,6 +33,13 @@ header {
     cursor: pointer;
 }
 
+.container_logo a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .container_logo img {
     width: 120px;
 }
