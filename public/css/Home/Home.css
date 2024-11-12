@@ -18,6 +18,9 @@ body {
     overflow-x: hidden;
 }
 
+/*------------------------------------------------------------------------*/
+/*HEADER COMIENZO*/
+
 header {
     width: 100vw;
     height: 13vh;
@@ -90,10 +93,13 @@ nav ul li a {
     nav ul li:hover a::after {
         width: 100%; /* Expande la línea en hover */
     }
+/*HEADER FIN*/
+/*------------------------------------------------------------------------*/
 
+/*EL CSS DE SECTION PROMOTIONS ESTA EN OTRO ARCHIVO SEPARADO POR SU COMPLEJIDAD Y TAMAÑO, ESTA EN LA MISMA CARPETA QUE ESTE, SE LLAMA HomeSlider.css*/
 
-
-/* Css para la SECTION 2 */
+/*------------------------------------------------------------------------*/
+/*SECTION PLATOS MAS RECOMENDADOS COMIENZO*/
 .section_recommended_dishes {
     margin-top: 20px;
 }
@@ -217,8 +223,12 @@ nav ul li a {
         font-size: 0.9rem;
     }
 }
+/*SECTION DE PLATO MAS RECOMENDADOS FIN*/
+/*------------------------------------------------------------------------*/
 
-/* Css para la SECTION 3 */
+
+/*------------------------------------------------------------------------*/
+/*SECTION DE ENCUENTRANOS COMIENZO*/
 .section_location {
     display: flex;
     flex-direction: column;
@@ -256,73 +266,12 @@ nav ul li a {
     border: none; /* Quitar el borde del iframe */
     border-radius: 10px; /* Bordes redondeados en el iframe */
 }
-
-/*footer{
-    display: flex;
-    flex-direction: column;
-
-    width: 100%;
-    height: auto;
-    background-color: #b90f0f;
-    
-    color: rgb(212, 212, 212);
-    padding:  30px 300px 0 300px;
-}
-
-.container_footer {
-    display: flex;  
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.container_information{
-    display: flex;
-    flex-direction: row;
-}
-
-.container_logo h3{
-    font-size: 40px;
-}
+/*SECTION DE ENCUENTRANOS FIN*/
+/*------------------------------------------------------------------------*/
 
 
-.container_information .card_info{
-    padding: 25px;
-}
-
-.card_info h3{
-    font-size: 30px;
-    margin-bottom: 20px;
-}
-
-.card_info p{
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-.container_networks {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 20px 0 20px 0;
-    align-items: center;
-    border-top: solid 0.5px white;
-}
-
-.certificate {
-    font-size: 13px;
-}
-
-
-.networks {
-    font-size: 25px;
-    color: white;
-    margin-left: 40px;
-}
-
-.networks i {
-    padding-left: 10px;
-}*/
-
+/*------------------------------------------------------------------------*/
+/*FOOTER COMIENZO*/
 footer{
     display: flex;
     flex-direction: column;
@@ -347,10 +296,6 @@ footer{
 .container_logo h3{
     font-size: 40px;
     color: #D4C5B9;  /* Color beige suave para el título */
-}
-
-.container_logo img {
-    filter: brightness(0) invert(0.9);  /* Convierte el logo a un tono claro */
 }
 
 .container_information .card_info{
@@ -404,3 +349,5 @@ footer{
     color: #F5F5F5;  /* Cambia a blanco hueso al pasar el mouse */
     cursor: pointer;
 }
+/*FOOTER FIN*/
+/*------------------------------------------------------------------------*/
