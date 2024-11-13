@@ -5,7 +5,6 @@ const router  = express.Router();
 const homeController = require('../controllers/homeController');
 const menuController = require('../controllers/menuController');
 const about_usController = require('../controllers/about_usController');
-const order_nowController = require('../controllers/order_nowController');
 const reserveController = require('../controllers/reserveController');
 const loginadminController = require('../controllers/loginadminController');
 
@@ -18,9 +17,6 @@ module.exports = function (){
 
     //Ruta About Us
     router.get('/About_Us', about_usController.AboutUs);
-
-    //Ruta Order Now
-    router.get('/Order_Now', order_nowController.OrderNow);
 
     //Ruta Reserve
     router.get('/Reserve', reserveController.Reserve);
