@@ -7,6 +7,7 @@ const menuController = require('../controllers/menuController');
 const about_usController = require('../controllers/about_usController');
 const order_nowController = require('../controllers/order_nowController');
 const reserveController = require('../controllers/reserveController');
+const loginadminController = require('../controllers/loginadminController');
 
 module.exports = function (){
     //Ruta Home
@@ -23,6 +24,9 @@ module.exports = function (){
 
     //Ruta Reserve
     router.get('/Reserve', reserveController.Reserve);
+
+    //Ruta Log In Admin
+    router.get('/Log_In_Admin', loginadminController.LogIn);
 
     return router;
 }
